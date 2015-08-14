@@ -18,7 +18,7 @@ namespace Validar\Usuario1 {
     }
 
     function Validar() {
-      if ($this->User == 'GatoViejo' and $this->Password == "123") {
+      if ($this->User == 'Gato' and $this->Password == "123") {
         header('Location: ../main/MainMenu.php?ClaveCorrecta=true');
       } else {
         header('Location: ../index.php?ClaveCorrecta=false');

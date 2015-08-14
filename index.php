@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+      <div>
     <form method="POST" action="accounts/process.php">
       <label>Digite usuario</label>
       <input type="text" id="User" name="User">
@@ -15,5 +16,6 @@
       <p>el usuario o la contraseña son incorrectos</p>
       <?php endif; ?>
     </form>
+      </div>
   </body>
 </html>
